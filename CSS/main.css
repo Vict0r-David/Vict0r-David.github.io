@@ -337,8 +337,6 @@ table
 td, th /* Mettre une bordure sur les td ET les th */
 {
     border: 1px solid black;
-    height: 50px; 
-    width: 50px;
 }
 
 #cssTable td, th
