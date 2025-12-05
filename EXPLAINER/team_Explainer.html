@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Victor David</title>
+  <title>EXPLAINER Team</title>
   <meta name="description" content="INRIA, Sophia-Antipolis">
 
   <link rel="stylesheet" href="/CSS/main.css">
-  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="canonical" href="http://yourdomain.com/explainer">
   <link rel="alternate" type="application/rss+xml" title="Victor David" href="http://yourdomain.com/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -46,7 +46,7 @@
      <li><a href="/About/about.html" class="page-link">Parcours</a>
     
      </li>
-    -->
+    
     
      <li><a href="/Research/recherche.html" class="page-link">Scientific Activities</a>
     
@@ -61,11 +61,7 @@
      <li><a href="/Teaching/cours.html" class="page-link">Teaching</a>
     
      </li>
-
-    <li><a href="/EXPLAINER/team_Explainer.html" class="page-link">EXPLAINER (Inria-UCL Team)</a>
-    
-     </li>
-    
+    -->
     
     <!--
 
@@ -112,27 +108,30 @@
 
 <div style="text-align: justify;">
   <p>
-    I am an ISFP researcher (Inria Starting Faculty Position) at the Inria Sophia-Antipolis Centre, working within the I3S laboratory since 2023, 
-    and currently part of the MARIANNE team led by Serena Villata.<br/>
-    I completed my PhD in 2021 at IRIT in Toulouse, focusing on the topic "Dealing with Similarity in Argumentation".<br/>
-    Following that, I held a first postdoctoral position (2021–2022) at CNAM Paris (Conservatoire National des Arts et Métiers), in the CEDRIC laboratory, 
-    where I worked on MAP inference, i.e. extracting the most probable and consistent set of information, in temporal, uncertain, and inconsistent knowledge graphs.
-    My second postdoctoral position (2022–2023) was at the University of Perugia in Italy, where I focused on temporal and probabilistic argumentation graphs, 
-    with an emphasis on the implementation and complexity analysis of novel and efficient computational argumentation algorithms.
-    <br/><br/>
-
-    My research primarily focuses on argumentation systems, whether abstract, logically structured, or based on natural language text. 
-    I am particularly interested in challenges related to knowledge representation, reasoning, explainability, and efficient computation,  
-    with the goal of bridging theoretical research and practical applications. 
-    This includes both the design of formal models and the development of methods applicable to real-world data. 
-    I work on frameworks that can handle uncertainty, incompleteness, temporality, and inconsistency in information. <br/><br/>
-
-    More broadly, my <strong>research areas</strong> include: Argumentation, Logic, Knowledge Graphs, Argument Mining, 
-    Natural Language Processing (NLP), Explainability, and Neuro-Symbolic AI.
-    <br/><br/>
-
-    I am currently working on decoding implicit reasoning, computing similarity between textual arguments, developing explainable methods to predict outcomes such as opinion change 
-    or persuasiveness in debates, improving the computational efficiency of argumentation algorithms, and designing new semantics better suited to complex and realistic data.
+    Implicit arguments are omnipresent in everyday communication at
+different levels (private, professional, political domains). However, current methods for handling
+arguments do not deal with them efficiently. Argument mining (Lawrence, Reed 2020) is a subfield
+in the research of natural language processing, aimed at identifying the premises and claims of
+arguments, and to identify the relationships between arguments, including supports and attacks
+(i.e. identifying argumentation graphs from texts).
+Given that learning methods have limited capacity for reasoning and to be explainable
+(Barocas, Hardt, Narayanan 2023), one solution for automatically understanding and analysing
+these (extracted) argumentation graphs would be to instantiate them with logical arguments.
+Once we have the logical representation of the arguments, we could use automated reasoning
+to analyse the argumentation [e.g., check the consistency of the premises, check the validity of
+the claims and check that the labelling of each arc (Besnard, Hunter 2008)].
+However, as we said earlier, the arguments exchanged by humans are often incomplete in their
+premises or claims, using implicit information. These implicit arguments, called enthymemes, are
+used for different reasons. For example, they may result from imprecision or error, i.e. a human
+being may be arguing without knowing all the necessary information, or they may be intentional,
+i.e. we can presuppose that certain information is commonly known and therefore does not need
+to be stated, or the use of enthymemes is a tool that has been well known since Aristotle (Faure
+2010) as one of the most effective in rhetoric and persuasion when it comes to interacting with an
+audience.
+Consequently, to correctly instantiate, understand and analyse arguments, it is essential to
+decode these enthymemes. This is very challenging goal (dealing with implicitness) and this
+project will be the first systematic attempt to tackle in argumentation. The benefit will be that we
+can better explain sentences by developing implicit knowledge.
   </p>
 
   <p>
