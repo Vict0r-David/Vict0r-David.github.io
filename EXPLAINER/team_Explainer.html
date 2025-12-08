@@ -108,80 +108,122 @@
 
 <div style="text-align: justify;">
   <p>
-    Implicit arguments are omnipresent in everyday communication at
-different levels (private, professional, political domains). However, current methods for handling
-arguments do not deal with them efficiently. Argument mining (Lawrence, Reed 2020) is a subfield
-in the research of natural language processing, aimed at identifying the premises and claims of
-arguments, and to identify the relationships between arguments, including supports and attacks
-(i.e. identifying argumentation graphs from texts).
-Given that learning methods have limited capacity for reasoning and to be explainable
-(Barocas, Hardt, Narayanan 2023), one solution for automatically understanding and analysing
-these (extracted) argumentation graphs would be to instantiate them with logical arguments.
-Once we have the logical representation of the arguments, we could use automated reasoning
-to analyse the argumentation [e.g., check the consistency of the premises, check the validity of
-the claims and check that the labelling of each arc (Besnard, Hunter 2008)].
-However, as we said earlier, the arguments exchanged by humans are often incomplete in their
-premises or claims, using implicit information. These implicit arguments, called enthymemes, are
-used for different reasons. For example, they may result from imprecision or error, i.e. a human
-being may be arguing without knowing all the necessary information, or they may be intentional,
-i.e. we can presuppose that certain information is commonly known and therefore does not need
-to be stated, or the use of enthymemes is a tool that has been well known since Aristotle (Faure
-2010) as one of the most effective in rhetoric and persuasion when it comes to interacting with an
-audience.
-Consequently, to correctly instantiate, understand and analyse arguments, it is essential to
-decode these enthymemes. This is very challenging goal (dealing with implicitness) and this
-project will be the first systematic attempt to tackle in argumentation. The benefit will be that we
-can better explain sentences by developing implicit knowledge.
+    Implicit arguments are omnipresent in everyday communication at different levels (private, professional, political domains). 
+    However, current methods for handling arguments do not deal with them efficiently. 
+    Argument mining (Lawrence, Reed 2020: Lawrence J., & Reed C. (2020). Argument Mining: A Survey. Computational Linguistics.) is a subfield
+    in the research of natural language processing, aimed at identifying the premises and claims of
+    arguments, and to identify the relationships between arguments, including supports and attacks
+    (i.e. identifying argumentation graphs from texts).
+    Given that learning methods have limited capacity for reasoning and to be explainable
+    (Barocas, Hardt, Narayanan 2023: Barocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and machine learning: Limitations and opportunities. MIT press.), 
+    one solution for automatically understanding and analysing
+    these (extracted) argumentation graphs would be to instantiate them with logical arguments.
+    Once we have the logical representation of the arguments, we could use automated reasoning
+    to analyse the argumentation [e.g., check the consistency of the premises, check the validity of
+    the claims and check that the labelling of each arc (Besnard, Hunter 2008: Besnard, P., & Hunter, A. (2008). Elements of argumentation (Vol. 47). Cambridge: MIT press.)].
+    However, as we said earlier, the arguments exchanged by humans are often incomplete in their
+    premises or claims, using implicit information. These implicit arguments, called enthymemes, are
+    used for different reasons. For example, they may result from imprecision or error, i.e. a human
+    being may be arguing without knowing all the necessary information, or they may be intentional,
+    i.e. we can presuppose that certain information is commonly known and therefore does not need
+    to be stated, or the use of enthymemes is a tool that has been well known since Aristotle 
+    (Faure 2010: Faure M. (2010). Rhetoric and persuasion: Understanding enthymemes in the public sphere. Acta Academica.) as one of 
+    the most effective in rhetoric and persuasion when it comes to interacting with an audience.
+    Consequently, to correctly instantiate, understand and analyse arguments, it is essential to
+    decode these enthymemes. This is very challenging goal (dealing with implicitness) and this
+    project will be the first systematic attempt to tackle in argumentation. The benefit will be that we
+    can better explain sentences by developing implicit knowledge.
   </p>
 
   <p>
-    Together with Anthony Hunter, I co-lead the EXPLAINER Inria International Associated Team, in collaboration with University College London (UCL). 
+    Together Victor David with Anthony Hunter, co-lead the EXPLAINER Inria International Associated Team, in collaboration with University College London (UCL). 
     The aim of this team is to analyze, understand, explain, and decode implicit textual arguments, bridging symbolic reasoning with natural language understanding.
+  </p>
+
+  <p>
+    <strong>List of members involved in the EXPLAINER team:</strong><br>
+    Victor David (ISFP researcher at Inria, Inria team representative),<br>
+    Anthony Hunter (Professor at UCL, UCL team representative),<br>
+    Serena Villata (Research Director, CNRS),<br>
+    Elena Cabrio (Professor, Université Côte d’Azur),<br>
+    Pierre Monnin (Research Scientist, Inria),<br>
+    Ameer Saadat-Yazdi (Postdoctoral researcher, Inria),<br>
+    Elfia Bezou Vrakatseli (Postdoctoral researcher, Université Côte d’Azur),<br>
+    Nino Pireaud (Research Assistant Engineer, Université Côte d’Azur).
+  </p>
+
+</div>
+
+<header class="post-header">
+<h1 class="post-title">Activity of the Team</h1>
+</header>
+
+<div style="text-align: justify;">
+  <p>
+    <ul>
+      <li>
+        The EXPLAINER team was officially validated in <strong>April 2025</strong>. However, due to complex administrative procedures at UCL, we are still waiting for the signature of the legal agreement.
+      </li>
+
+      <li>
+        <strong>April to September 2025 (6 months)</strong>: Internship of <strong>Nino Pireaud</strong> (funded by a personal project of Victor David), supervised by Victor David and Anthony Hunter. 
+        The internship focuses on building a dataset and a baseline system that integrates LLMs and argumentation theory to predict the persuasiveness of arguments involving frequent use of enthymemes.
+      </li>
+
+      <li>
+        <strong>January to June 2026 (6 months)</strong>: Research Assistant Engineer position of <strong>Nino Pireaud</strong> (also funded by a personal project of Victor David), 
+        supervised by Victor David, Anthony Hunter, Pierre Monnin, and Elena Cabrio. The aim is to continue and expand on the internship work, in preparation for starting a PhD in <strong>October 2026</strong>.
+      </li>
+
+      <li>
+        <strong>June–July 2025</strong>: One-month visit by <strong>Anthony Hunter (UCL)</strong> to the MARIANNE group (INRIA / Université Côte d’Azur), funded by the I3S Laboratory. Objectives include:
+        <ul>
+          <li>Collaborating with Victor David and Nino Pireaud on the internship project;</li>
+          <li>Working with Victor David on three papers related to enthymemes and argument quality (including collaborations with Francesco Santini, University of Perugia, and Nico Potyka, Cardiff University);</li>
+          <li>Meeting with Serena Villata, Elena Cabrio, and their PhD students to discuss NLP and neuro-symbolic methods for enthymeme understanding.</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>January 2026</strong>: Recruitment of <strong>Ameer Saadat-Yazdi</strong> for a <strong>2-year postdoctoral position</strong>, supervised by Victor David, Serena Villata, and Anthony Hunter. 
+        The project focuses on using LLMs and argumentation schemes to decode enthymemes. This postdoc is funded by INRIA in support of the Inria–UCL EXPLAINER associated team and will be based at INRIA / Université Côte d’Azur.
+      </li>
+
+      <li>
+        <strong>February 2026</strong>: Recruitment of <strong>Elfia Bezou Vrakatseli</strong> for a <strong>1-year postdoctoral position</strong>, supervised by Victor David, Serena Villata, and Anthony Hunter. 
+        The objective is to define a dataset for evaluating the quality of decoded enthymemes. This postdoc is funded by the Idex project <em>AMI Idées</em> (Université Côte d’Azur), submitted by Victor David. 
+        The position will be based at INRIA / Université Côte d’Azur.
+      </li>
+    </ul>
+  </p>
+</div>
+
+
+<header class="post-header">
+<h1 class="post-title">Scientific Production</h1>
+</header>
+
+<div style="text-align: justify;">
+  <p>
+    <strong>–</strong> The paper <em>"A Logic-based Framework for Decoding Enthymemes in Argument Maps involving Implicitness in Premises and Claims"</em> by Victor David and Anthony Hunter has been accepted at <strong>IJCAI 2025</strong> (a leading international conference in Artificial Intelligence).  
+    This work presents a theoretical framework for representing natural language arguments extracted via NLP as logical arguments.  
+    <br>Link: <a href="https://www.ijcai.org/proceedings/2025/0495.pdf" target="_blank">https://www.ijcai.org/proceedings/2025/0495.pdf</a>
+  </p>
+
+  <p>
+    <strong>–</strong> The paper <em>"An Axiomatic Study of a Modular Evaluation of Enthymeme Decoding in Weighted Structured Argumentation"</em> by Jonathan Ben-Naim, Victor David, and Anthony Hunter has been accepted at <strong>KR 2025</strong> (a leading international conference on Knowledge Representation and Reasoning).  
+    This work proposes a theoretical framework for evaluating the quality of enthymeme decodings in structured argumentation.  
+    <br>Link: <a href="https://proceedings.kr.org/2025/11/kr2025-0011-ben-naim-et-al.pdf" target="_blank">https://proceedings.kr.org/2025/11/kr2025-0011-ben-naim-et-al.pdf</a>
   </p>
 </div>
 
 
 <!--
-<p>Actuellement Post-Doctorant en Intelligence Artificielle et Informatique, <br/> 
-   au CNAM (Conservatoire National des Arts et Métiers) Paris, <br/>
-   dans le laboratoire CEDRIC (Centre d’Etudes et de Recherche en Informatique et Communications), <br/> 
-   financé par le projet ANR DAPHNE (Découverte dans les bAses Prosopographiques Historiques de coNnaissancEs).</p>
-
-<p>
-  Mes recherches portent sur l'amélioration de systèmes d'argumentation. 
-  On peut les définir comme des approches de raisonnement basées sur la justification d'affirmations par des arguments. 
-  Depuis la fin des années 1980, les systèmes d'argumentation ont suscité un grand intérêt au sein de la communauté de l'intelligence artificielle,
-  notamment en tant qu'approche unificatrice du raisonnement non-monotone. Ils ont ensuite été utilisés pour résoudre différents problèmes 
-  comme le raisonnement en présence d'informations incohérentes, la prise de décision, la classification, la négociation, etc.
-  L'argumentation a également plusieurs applications pratiques, notamment dans les domaines juridique et médical. <br/>
-</p>
-
-<p>
-  En collaboration avec <a href="http://raphael.fournier-sniehotta.fr/apropos/"> Raphaël Fournier-S'niehotta </a> et 
-  <a href="https://cv.archives-ouvertes.fr/nicolas-travers"> Nicolas Travers </a>, nous travaillons sur l'application de systèmes d'argumentation
-  sur des graphes de connaissance afin d'améliorer la richesse des processus de décisions et l'explicabilité des résultats.
-</p>
-
-<p>Mon doctorat d'Informatique a été obtenu en 2021 à l'Université Paul Sabtier Toulouse III, dans le laboratoire IRIT
-   (Institue de Recherche en Informatique de Toulouse) sous la direction de <a href="https://www.irit.fr/~Leila.Amgoud/"> Leila Amgoud </a>.
-   Mon sujet de recherche portait sur l'intégration d'une nouvelle notion dans les systèmes d'argumentation : la similarité. 
-   Dans ma thèse, j'ai proposé des solutions aux principales questions de recherche suivantes : <br/>
-       ** Comment mesurer la similarité entre deux arguments ? <br/>
-       ** Quel est l'impact de la similarité sur l'évaluation des arguments ? 
-          Et comment définir une sémantique capable de traiter correctement la similarité ?</p>
--->
-
-<!--<h1 id="contact-information">Contact Information</h1>
-
-<p>office: 37.1.40.<br />
-tel: +33 (0)1 58 80 86 35</p>
--->
-
 </article>
+ -->
 
 </div>
-
-  </div>
+</div>
 </div>
 
 
