@@ -344,3 +344,10 @@ td, th /* Mettre une bordure sur les td ET les th */
     text-align: center; 
     vertical-align: middle;
 }
+/* 2026 additions */
+.publication-list { margin-left: 1.3em; }
+.publication-list li { margin-bottom: 1.25em; line-height: 1.55; }
+.activity-table { width:100%; border-collapse:collapse; display:block; overflow-x:auto; margin:1em 0 2em; font-size:.92em; }
+.activity-table th,.activity-table td {padding:9px 10px; border:1px solid #d5dce5; vertical-align:top;}
+.activity-table th { background:#eef3f8; }
+@media(max-width:600px){.activity-table{font-size:.85em;} .post-content{overflow-wrap:anywhere;}}
