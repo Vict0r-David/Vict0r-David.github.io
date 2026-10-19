@@ -1,7 +1,11 @@
-# Victor David academic website
+# Victor David — personal academic website
 
-Updated October 2026 using the September 2026 CV and supplied PDF collection.
+Static GitHub Pages website with shared navigation and full English/French versions.
 
-Deploy by uploading repository contents (not its enclosing ZIP folder) to the GitHub Pages repository. The `.git` directory is deliberately not included.
+- English (default): `/`, `/About/about.html`, `/Research/recherche.html`, `/Publications/publi.html`, `/Teaching/cours.html`, `/EXPLAINER/team_Explainer.html`.
+- French: the same paths prefixed with `/fr/` (French home: `/fr/index.html`).
+- Language switch: in the site header; preference is remembered in the browser.
+- Shared style: `CSS/main.css`; language switch: `js/language.js`.
+- PDF references: `pdf/`.
 
-Google Scholar blocks automated scraping, so publication listings were cross-checked with available PDFs, public proceedings and DBLP, rather than claiming a complete Scholar synchronization.
+Updated October 2026. No build step needed for GitHub Pages.
